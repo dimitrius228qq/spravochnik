@@ -1,0 +1,343 @@
+
+
+
+html,body {
+	font-family: Arial;
+	background: #000000;
+	color: #ffffff;
+	padding: 10px;
+	margin: 0;
+	width: 100%
+	height:100%;
+
+}
+
+.nav   {
+	display: flex;
+    font-size: 1.6666666%;
+    float:right;
+    margin-right: 30px;
+}
+.nav p{
+	 margin-right: 30px;
+	 font-size: 40px;
+}
+.nav button{
+	margin-right: 30px;
+}
+
+
+.spravochnik{
+width: 41%;
+font-size:60px;
+text-align: center;
+margin: 0 auto;
+justify-content: center;
+}
+
+.nav1{
+	display: flex;
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 20px;
+	height: 70px;
+
+}
+.nav1 p{
+	font-size: 30px;
+}
+
+
+ul {
+	width: 100%;
+	padding: 0 10!important;
+}
+ ul li{
+    width: 100%;
+	 height: 100px;
+	list-style: none;
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #fcfcfc;
+	border: 1px solid silver;
+	border-radius: 5px; 
+
+}
+ ul li:hover{
+	
+	background: #e5e5e5;
+
+}
+ ul li button {
+ 	display: flex;
+	border: 0;
+	padding: 10px 15px;
+	color: white;
+	font-size: 13px;
+	float:right;
+	margin-right: 10px;
+	padding-bottom:15px; 
+	border-radius: 5px;
+}
+ ul li button: hover{
+	background: #a04141;
+}
+
+
+#id{
+	display: none;
+}
+
+
+
+
+#form-container{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #b9b9b9b8; 
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.loading{
+	height: 10px;
+	width: 450px;
+	margin-left: 30px;
+	margin-top:350px;
+}
+#recall-form{
+    
+	margin-top: 50px; 
+	width: 500px;
+	height:550px;
+	background-color: white;
+	color:black; 
+}
+#close{
+	float: right;
+}
+#closepod{
+	height: 30px;
+}
+#closedel{
+	float: right;
+}
+#closelog{
+	float: right;
+}
+#closeizm{
+	float: right;
+}
+
+
+.row{
+
+	width: 500px;
+	height: 300px;
+}
+.form-control{
+	width: 500px;
+
+}
+.col{
+margin-top: 20px;
+
+margin-left: 10px;
+
+}
+#form-log p{
+	margin-top: 30px;
+	text-align: center;
+}
+#form-del p{
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+
+#form-del{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #b9b9b9b8; 
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+#form-delete{
+    
+	margin-top: 50px; 
+	width: 300px;
+	height:150px;
+	background-color: white;
+	color:black; 
+}
+
+
+#form-podrob{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #b9b9b9b8; 
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+#form-pod{
+    
+	margin-top: 50px; 
+	width: 41%;
+	height:600px;
+	background-color: white;
+	color:black; 
+}
+#form-izmenenie{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #b9b9b9b8; 
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+#form-izm{
+    
+	margin-top: 50px; 
+	width: 500px;
+	height:800px;
+	background-color: white;
+	color:black; 
+}
+
+#form-logout{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #b9b9b9b8; 
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+#form-log{
+    
+	margin-top: 50px; 
+	width: 300px;
+	height:150px;
+	background-color: white;
+	color:black; 
+}
+
+
+@media screen and (max-width:960px){
+	input {
+		width: 100px;
+	}
+	#form-izm input{
+		width: 100px;
+	}
+	 img{
+		width: 100px;
+		 
+	}
+	#previewizm img{
+		height: 10px;
+		margin-left: 15px;
+		margin-top:300px;
+			width: 380px;
+	
+	}
+	#form-izm div{
+   padding-right:  90px;
+
+}
+	
+
+}
+@media screen and (max-width:760px){
+	#form-pod{
+		width: 400px;
+	}
+	.spravochnik{
+		font-size: 30px;
+	}
+	.nav1{
+	
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 20px;
+	height: 70px;
+
+}
+.nav1 p{
+	font-size: 30px;
+	
+}
+	.nav1 button{
+		width: 90px;
+		font-size:11px 
+		
+	}
+	ul {
+	width: 100%;
+	padding: 0 !important;
+}
+ ul li{
+  width: 100%;
+	height: 100px;
+	list-style: none;
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #fcfcfc;
+	border: 1px solid silver;
+	border-radius: 5px; 
+}
+ ul li:hover{
+	
+	background: #e5e5e5;
+
+}
+ ul li button {
+ 	display: flex;
+	border: 0;
+	padding: 10px 30px;
+	color: white;
+	font-size: 1px;
+	
+	margin-right: 15px;
+	padding-bottom:15px; 
+	border-radius: 5px;
+}
+ ul li button: hover{
+	background: #a04141;
+}
+	#phph button{
+
+		width: 80px;
+		font-size: 12px
+	}
+	
+}
+@media screen and (max-width:450px){
+	#recall-form{
+		width: 350px
+	}
+	#form-izm{
+		width: 350px;
+	}
+	.loading{
+		width: 100px;
+	}
+	
+}
